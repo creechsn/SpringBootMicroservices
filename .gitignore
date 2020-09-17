@@ -107,3 +107,4 @@ local.properties
 maven-wrapper.jar
 maven-wrapper.*
 mvmw*
+.mvn
