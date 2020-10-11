@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
+<style>
+body{
+	background-image: url('Background.jpg');
+}
+</style>
 <head>
 <meta charset="ISO-8859-1">
 <title>Plantplaces.com</title>
 </head>
 <body>
-<h1>Welcome to Plantplaces</h1>
+<h1>Welcome to PlantPlaces!</h1>
+<br/>
+Your specimen is:
+<p th:text = "${specimenDTO}"/>
 </body>
 </html>
